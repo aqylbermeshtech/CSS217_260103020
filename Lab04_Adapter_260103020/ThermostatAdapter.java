@@ -1,3 +1,4 @@
+package Lab04_Adapter_260103020;
 public class ThermostatAdapter implements SmartDevice {
     private final LegacyThermostat thermostat;
     public ThermostatAdapter(LegacyThermostat thermostat) {
